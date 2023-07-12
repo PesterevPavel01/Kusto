@@ -25,3 +25,6 @@
 @import url('../../Kusto/bloks/elements/__element-flex-row/elements__element-flex-row.css');
 @import url('../../Kusto/bloks/elements/__element-text/elements__element-text.css');
 @import url('../../Kusto/bloks/elements/__element_like/elements__element-like.css');
+
+@import url('../../Kusto/bloks/footer/footer.css');
+@import url('../../Kusto/bloks/footer/__text/footer__text.css');
