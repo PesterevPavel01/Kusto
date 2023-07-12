@@ -1,0 +1,6 @@
+.elements__element{
+    background-image: url('../../../img/Rectangle_item.svg');
+    width: 282px;
+    height: 361px;
+    line-height: 0;
+}

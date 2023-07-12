@@ -1,4 +1,5 @@
 @import url('../../Kusto/styles/normalize.css');
+@import url('../../Kusto/styles/normalize.css');
 
 @import url('../../Kusto/bloks/body/body.css');
 @import url('../../Kusto/bloks/main-page/main-page.css');
@@ -19,3 +20,8 @@
 @import url('../../Kusto/bloks/profile/__vector/profile__vector.css');
 
 @import url('../../Kusto/bloks/elements/elements.css');
+@import url('../../Kusto/bloks/elements/__element/elements__element.css');
+@import url('../../Kusto/bloks/elements/__element-place/elements__element-place.css');
+@import url('../../Kusto/bloks/elements/__element-flex-row/elements__element-flex-row.css');
+@import url('../../Kusto/bloks/elements/__element-text/elements__element-text.css');
+@import url('../../Kusto/bloks/elements/__element_like/elements__element-like.css');

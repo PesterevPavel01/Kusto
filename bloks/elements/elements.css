@@ -3,4 +3,5 @@
     height: 774px;
     display: grid;
     margin: auto auto 0px auto;
+    grid-template-columns: 1fr 1fr 1fr;
 }
