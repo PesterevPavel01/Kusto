@@ -1,0 +1,14 @@
+@import url('../../Kusto_project/styles/normalize.css');
+
+@import url('../../Kusto_project/bloks/body/body.css');
+@import url('../../Kusto_project/bloks/main-page/main-page.css');
+
+@import url('../../Kusto_project/bloks/header/header.css');
+@import url('../../Kusto_project/bloks/header/__logo/header__logo.css');
+@import url('../../Kusto_project/bloks/header/__line/header__line.css');
+
+@import url('../../Kusto_project/bloks/profile/profile.css');
+@import url('../../Kusto_project/bloks/profile/__avatar/profile__avatar.css');
+@import url('../../Kusto_project/bloks/profile/__info/profile__info.css');
+@import url('../../Kusto_project/bloks/profile/__info-title/profile__info-title.css');
+@import url('../../Kusto_project/bloks/profile/__text/profile__text.css');
