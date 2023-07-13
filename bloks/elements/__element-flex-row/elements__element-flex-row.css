@@ -4,5 +4,5 @@
     width: 246px;
     height: 79px;
     margin: auto ;
-/*     gap: 90px; */
+    justify-content: space-between;
 }

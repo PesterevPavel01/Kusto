@@ -1,5 +1,5 @@
 .profile__info-text-row
 {
     display: flex;
-    gap: 18px;
+    justify-content: space-between;
 }
