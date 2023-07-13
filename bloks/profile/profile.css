@@ -4,4 +4,5 @@
     height: 120px;
     display: flex;
     margin: auto auto 50px auto;
+    gap: 18px;
 }
