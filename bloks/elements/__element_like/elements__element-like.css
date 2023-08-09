@@ -3,4 +3,13 @@
     width: 22px;
     height: 19px;
     margin: auto;
+    cursor: pointer;
+}
+
+.elements__element-likesSelect{
+    background-image: url('../../../img/likeSelected.svg');
+    width: 22px;
+    height: 19px;
+    margin: auto;
+    cursor: pointer;
 }

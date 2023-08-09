@@ -42,7 +42,8 @@
 
                 </section>
 
-                <section class="elements">
+                <section id="elements" class="elements">
+
                     <div class="elements__element">
                         <img src="./img/karachaevsk.svg" alt="photo" class="elements__element-place">
                         <div class="elements__element-flex-row">
@@ -50,6 +51,7 @@
                             <div class="elements__element-like"></div>
                         </div>
                     </div>
+
                     <div class="elements__element">
                         <img src="./img/elbrus.svg" alt="photo" class="elements__element-place">
                         <div class="elements__element-flex-row">
@@ -57,6 +59,7 @@
                             <div class="elements__element-like"></div>
                         </div>
                     </div>
+
                     <div class="elements__element">
                         <img src="./img/dombay.svg" alt="photo" class="elements__element-place">
                         <div class="elements__element-flex-row">
@@ -64,6 +67,7 @@
                             <div class="elements__element-like"></div>
                         </div>
                     </div>
+
                     <div class="elements__element">
                         <img src="./img/elbrus.svg" alt="photo" class="elements__element-place">
                         <div class="elements__element-flex-row">
@@ -71,6 +75,7 @@
                             <div class="elements__element-like"></div>
                         </div>
                     </div>
+
                     <div class="elements__element">
                         <img src="./img/dombay.svg" alt="photo" class="elements__element-place">
                         <div class="elements__element-flex-row">
@@ -78,6 +83,7 @@
                             <div class="elements__element-like"></div>
                         </div>
                     </div>
+
                     <div class="elements__element">
                         <img src="./img/karachaevsk.svg" alt="photo" class="elements__element-place">
                         <div class="elements__element-flex-row">
@@ -85,9 +91,89 @@
                             <div class="elements__element-like"></div>
                         </div>
                     </div>
+
                 </section>
 
             </main>
+
+            <script>
+
+                let myVariable=document.querySelector('.elements__element-text')
+                console.log(myVariable);
+                myVariable.name="testName";
+                console.log(myVariable.name);
+                /*myVariable.innerHTML+='<p>testVariable</p>'*/
+                /*myVariable.insertAdjacentText('beforeend','<p>insertAdjacentText_testVariable</p>');*/
+
+                const arrowFunction=(message)=>{console.log('result')}
+                const shortFunction=(firstArg, secondArg)=>`result ${firstArg} и ${secondArg}` 
+                console.log(shortFunction('arg1','arg2'))
+
+                const object=()=>{white:'#FFF'}
+
+                const array=[1,2,3,4];
+
+                array.forEach(()=>{console.log('перебор элементов массива')})
+                array.map(()=>{console.log('перебор элементов массива')})
+
+                const obj= // this is object
+                {
+                    one:1,
+                    two:2,
+                    three:object,
+                    four:array,
+                    five:shortFunction
+                };
+
+                console.log(Object.keys(obj))
+                console.log(Object.values(obj))
+                console.log(Object.entries(obj))
+
+                Object.entries(array).map(
+                    (a)=>{console.log('value',a[0])}
+                )
+
+                console.log(obj.one)
+                console.log(obj.two)
+                console.log(obj.three.white)
+                console.log(obj.four[0])
+                console.log(obj.five(1,2))
+
+                let variable=document.querySelectorAll('.elements__element-like')
+
+                console.log(variable)
+
+                variable.forEach(
+                    element =>
+                    {   
+                        element.addEventListener('click',(e)=>{start(e.target)})
+                        /*element.addEventListener('mouseout',stop)*/
+                    } );
+
+                function start(element)
+                {
+                    console.log(element)
+                    if(element.classList.contains('elements__element-like'))
+                    {
+                        console.log('нашел')
+                        element.classList.replace('elements__element-like','elements__element-likesSelect')
+                    }else
+                    {
+                        element.classList.replace('elements__element-likesSelect','elements__element-like')
+                    }
+                }
+
+                function stop()
+                {
+                    console.log('Завершена функция')
+                    return 'ok'
+                }
+
+                console.log(variable.class)
+                variable=document.querySelectorAll('img')
+                console.log(variable[0].getAttribute('src'))
+
+            </script>
 
             <footer class="footer">
                 <p class="footer__text">© 2020 Mesto Russia</p>

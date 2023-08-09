@@ -1,0 +1,27 @@
+@import url('../bloks/body/body.css');
+@import url('../bloks/main-page/main-page.css');
+
+@import url('../bloks/header/header.css');
+@import url('../bloks/header/__logo/header__logo.css');
+@import url('../bloks/header/__line/header__line.css');
+
+@import url('../bloks/profile/profile.css');
+@import url('../bloks/profile/__avatar/profile__avatar.css');
+@import url('../bloks/profile/__info/profile__info.css');
+@import url('../bloks/profile/__info-title/profile__info-title.css');
+@import url('../bloks/profile/__info-text-row/profile__info-text-row.css');
+@import url('../bloks/profile/__text/profile__info-text.css');
+@import url('../bloks/profile/__info-flex-row/profile__info-flex-row.css');
+@import url('../bloks/profile/__info-edit-button/profile__info-edit-button.css');
+@import url('../bloks/profile/__add-button/profile__add-button.css');
+@import url('../bloks/profile/__vector/profile__vector.css');
+
+@import url('../bloks/elements/elements.css');
+@import url('../bloks/elements/__element/elements__element.css');
+@import url('../bloks/elements/__element-place/elements__element-place.css');
+@import url('../bloks/elements/__element-flex-row/elements__element-flex-row.css');
+@import url('../bloks/elements/__element-text/elements__element-text.css');
+@import url('../bloks/elements/__element_like/elements__element-like.css');
+
+@import url('../bloks/footer/footer.css');
+@import url('../bloks/footer/__text/footer__text.css');
