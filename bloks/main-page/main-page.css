@@ -8,8 +8,8 @@
     line-height: 0;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:1200px) {
     .main-page{
-        width:400px;
-    }   
+       height:auto;
+    }  
 }
