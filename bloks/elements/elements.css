@@ -7,9 +7,11 @@
     gap: 17px;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:1200px) {
     .elements{
         grid-template-columns: repeat(2 ,1fr);
-        margin:auto
+        height: auto;
+        width: 581px;
+        margin-left: 200px;
     }   
 }
